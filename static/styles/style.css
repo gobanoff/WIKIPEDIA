@@ -1,0 +1,108 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+
+
+span{
+font-style: italic;
+background-color: rgb(232, 23, 12);
+color: rgb(24, 2, 2);
+}
+
+
+.pizda {
+    font-weight: bold;
+}
+
+.list{
+display: inline-block;
+border-style:solid ;
+border-width: 0.5px;
+padding-right: 20px;
+
+}
+.list>p{
+text-align: center;
+font-weight: bold;
+}
+
+.img-cont{
+    float: right;
+    padding: 5px;
+    border-style: solid;
+    border-width: 0.5px;
+    margin-left: 5px;
+}
+
+.img-cont>div{
+align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-html{
+    max-width: 70px;
+}
+
+/* navigacio panel */
+
+.nav-conteiner{
+background-color: rgb(237, 12, 12);
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-conteiner>nav>ul{
+    align-items: center;
+    display: flex;
+    list-style: none;
+margin: 0;
+padding: 0;
+}
+.nav-conteiner>nav>ul>li>a{
+
+display: block;
+padding: 10px;
+border-style:solid ;
+border-width: 0.5px;
+}
+
+.page{
+    display: flex;
+    justify-content: center;
+}
+.header{
+width: 14%;
+background-color: rgb(105, 188, 120);
+
+}
+.section{
+    width: 82%;
+}
+ 
+.text-page{
+    padding: 15px;
+}
+.header>ul{
+list-style: none;
+border-bottom-style: solid;
+border-width: 0.5px;
+margin: 10px;
+padding: 0px;
+padding-bottom: 10px;
+
+}
+
+.header>div{
+
+    width: 100%;
+}
+
+.header>div>img{
+    width: 100%;
+}
+
+
+
